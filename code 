@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Cards</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+        }
+
+        h1 {
+            text-align: center;
+            color: navy;
+        }
+
+        .card {
+            width: 250px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid navy;
+            border-radius: 12px;
+            background-color: white;
+        }
+
+        .card h2 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Student Information</h1>
+
+    <div class="card">
+        <h2>Student 1</h2>
+        <p>Name: Rahul</p>
+        <p>Course: BCA</p>
+        <p>Roll No: 101</p>
+    </div>
+
+    <div class="card">
+        <h2>Student 2</h2>
+        <p>Name: Priya</p>
+        <p>Course: BCA</p>
+        <p>Roll No: 102</p>
+    </div>
+
+</body>
+</html>
